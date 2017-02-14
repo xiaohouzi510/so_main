@@ -22,6 +22,7 @@ extern "C"
 void export_fun(student *st)
 {
 	st->display();
+	printf("student %d\n",st->m_num);
 	helloworld();
 }
 
